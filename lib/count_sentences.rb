@@ -2,6 +2,8 @@ require 'pry'
 
 class String
 
+attr_accessor :array
+
   def sentence?
     self.end_with?(".")
   end
