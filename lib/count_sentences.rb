@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     binding.pry
-   array = [5]
+   steph = [5]
    puts array.count("o")
   end
 end
