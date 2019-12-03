@@ -17,7 +17,6 @@ attr_accessor :array
   end
 
   def count_sentences
-    binding.pry
-   array = self
+  
   end
 end
