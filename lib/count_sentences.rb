@@ -18,6 +18,6 @@ attr_accessor :array
 
   def count_sentences
   array = self.split
-  puts array.length
+  puts array.count
   end
 end
