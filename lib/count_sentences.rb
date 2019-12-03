@@ -17,7 +17,6 @@ attr_accessor :array
   end
 
   def count_sentences
-  array = self.split
-  puts array.count
+  self.split(/\.|\?|\!/).delete_if {|p| p.size < 2}.size
   end
 end
