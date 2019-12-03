@@ -17,5 +17,6 @@ class String
   def count_sentences
     binding.pry
    steph = [5]
+   puts steph
   end
 end
